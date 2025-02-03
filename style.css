@@ -78,7 +78,7 @@ header nav a:hover {
 
 /* Shop Section */
 .shop {
-    background-color: #fff;
+    background-color: #ec3078;
     padding: 50px 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,7 +88,7 @@ header nav a:hover {
 .shop h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #FF6347; /* Accent color for the heading */
+    color: #fcfdfd; /* Accent color for the heading */
 }
 
 .shop p {
@@ -150,7 +150,7 @@ header nav a:hover {
 
 /* About Me Section */
 .about-me {
-    background-color: #0829e6;
+    background-color: #46c4f7;
     padding: 50px 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -160,7 +160,7 @@ header nav a:hover {
 .about-me h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #FF6347;
+    color: #ffa047;
 }
 .about-me img {
     width: 25%;
@@ -174,13 +174,44 @@ header nav a:hover {
     color:#f5f3f3
 }
 
+/* Back to Top Section */
+.backtotop {
+    background-color: #46c4f7;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(245, 243, 243, 0.1);
+    margin-top: 5px;
+}
+
+.backtotop h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #f5f3f3;
+}
+
+}
+.backtotop p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    color: #070707;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 /* Contact Section */
 .contact {
     width: 100%;
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #eff874;
+    background-color: #079c14;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -190,13 +221,13 @@ header nav a:hover {
     font-size: 2rem;
     margin-bottom: 10px;
     text-align: center;
-    color: #db810a;
+    color: #0a0edb;
 }
 
 /* Paragraph styling */
 #contact-form p {
     font-size: 1rem;
-    color: #666;
+    color: #fdfbfb;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -274,9 +305,9 @@ header nav a:hover {
     }
 }
 
-/* More Options Section */
+/* The End Section */
 .theend {
-    background-color: #f8daac;
+    background-color: #df9ff3;
     padding: 10px 10px;
     text-align: center;
     box-shadow: 0 0 5px rgba(245, 243, 243, 0.1);

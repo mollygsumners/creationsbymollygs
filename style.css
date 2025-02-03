@@ -1,0 +1,362 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #FF6347, #FF1493, #FFD700, #ADFF2F, #32CD32, #1E90FF, #8A2BE2);
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 180px;
+    height: auto;
+}
+
+header .header-content {
+    text-align: center;
+    flex-grow: 1;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #fff;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    margin: 0 20px;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Main Section */
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Shop Section */
+.shop {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.shop h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FF6347; /* Accent color for the heading */
+}
+
+.shop p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.shop-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.shop-item {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shop-item p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* More Options Section */
+.more-options {
+    background-color: #fcf04e;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(245, 243, 243, 0.1);
+    margin-top: 5px;
+}
+
+.more-options h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #f5f3f3;
+}
+.more-options img {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+.more-options p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    color: #070707;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #0829e6;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FF6347;
+}
+.about-me img {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+.about-me p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    color:#f5f3f3
+}
+
+/* Contact Section */
+.contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #eff874;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+#contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #db810a;
+}
+
+/* Paragraph styling */
+#contact-form p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label styling */
+#contact-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input field and textarea styling */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* Submit button styling */
+#contact-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+#contact-form input[type="submit"]:hover {
+    background-color: #e47b04;
+}
+
+/* Focus effect for input fields */
+#contact-form input:focus,
+#contact-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #contact-form {
+        padding: 15px;
+    }
+
+    #contact-form h2 {
+        font-size: 1.8rem;
+    }
+
+    #contact-form input[type="submit"] {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+/* More Options Section */
+.theend {
+    background-color: #f8daac;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(245, 243, 243, 0.1);
+    margin-top: 5px;
+}
+
+.theend h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #f5f3f3;
+}
+.theend img {
+    width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+.theend p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+    color: #070707;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #FF6347;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    header nav a {
+        font-size: 1.2em;
+    }
+
+    .main-content h2 {
+        font-size: 2em;
+    }
+
+    .main-content p {
+        font-size: 1em;
+    }
+
+    .shop h2 {
+        font-size: 2em;
+    }
+
+    .shop-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-item {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .about-me h2 {
+        font-size: 2em;
+    }
+
+    .about-me p {
+        font-size: 1em;
+    }
+
+    .contact form {
+        width: 90%;
+    }
+}

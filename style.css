@@ -76,8 +76,8 @@ header nav a:hover {
     width: 80%;
 }
 
-/* Shop Section */
-.shop {
+/* craft Section */
+.craft {
     background-color: #ec3078;
     padding: 50px 20px;
     text-align: center;
@@ -85,39 +85,39 @@ header nav a:hover {
     margin-top: 40px;
 }
 
-.shop h2 {
+.craft h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #fcfdfd; /* Accent color for the heading */
 }
 
-.shop p {
+.craft p {
     font-size: 1.2em;
     margin: 20px auto;
     width: 80%;
 }
 
-.shop-items {
+.craft-items {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.shop-item {
+.craft-item {
     text-align: center;
     width: 200px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.shop-item img {
+.craft-item img {
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.shop-item p {
+.craft-item p {
     margin: 10px 0;
     font-size: 1.1em;
 }
@@ -175,7 +175,7 @@ header nav a:hover {
 }
 
 /* Back to Top Section */
-.backtotop {
+.back-top {
     background-color: #46c4f7;
     padding: 10px 10px;
     text-align: center;
@@ -183,14 +183,14 @@ header nav a:hover {
     margin-top: 5px;
 }
 
-.backtotop h2 {
+.back-top h2 {
     font-size: 2.5em;
     margin-bottom: 5px;
     color: #f5f3f3;
 }
 
-}
-.backtotop p {
+
+.back-top p {
     font-size: 1.2em;
     margin: 20px auto;
     width: 80%;
@@ -306,7 +306,7 @@ footer {
 }
 
 /* The End Section */
-.theend {
+.the-end {
     background-color: #df9ff3;
     padding: 10px 10px;
     text-align: center;
@@ -314,17 +314,17 @@ footer {
     margin-top: 5px;
 }
 
-.theend h2 {
+.the-end h2 {
     font-size: 2.5em;
     margin-bottom: 5px;
     color: #f5f3f3;
 }
-.theend img {
+.the-end img {
     width: 25%;
     height: auto;
     border-radius: 5px;
 }
-.theend p {
+.the-end p {
     font-size: 1.2em;
     margin: 20px auto;
     width: 80%;
@@ -365,16 +365,16 @@ footer a {
         font-size: 1em;
     }
 
-    .shop h2 {
+    .craft h2 {
         font-size: 2em;
     }
 
-    .shop-items {
+    .craft-items {
         flex-direction: column;
         align-items: center;
     }
 
-    .shop-item {
+    .craft-item {
         width: 80%;
         margin: 10px 0;
     }
